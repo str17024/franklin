@@ -300,6 +300,8 @@ section.forecast {
     display: none;
 }
 
+
+
 main article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
     width: 50%;
     max-width: 300px;
@@ -327,5 +329,11 @@ main article p.town-article, p.w-story {
     margin-bottom: 0;
 }
 
+#franklinevents {
+    justify-content: center;
+    display: flex;
+    background-color: grey;
+    
+}
 
 /* Other Class Selectors */
