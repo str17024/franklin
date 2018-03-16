@@ -182,67 +182,8 @@ tr:nth-child(2n+3) {
     }
 
 
-tfoot {color:black;
-
-background-color: #7fb9c2;
-}
-
-table, th, td {
-    padding: 5px;
-    border: 1px solid black;
-    font-family: ubuntu, sans-serif;
-    
-    }
-    
- tfoot {
-     justify-content: center;}    
-    
 
 
-input,textarea {
-    float:right;
-    width:60%;
-}
-
-label {
-    float:left;
-    width:40%;
-    padding-top: 5px;
-}
-
-
-input:required ~ label:after,
-textarea:required ~ label:after{
-    content: " *";
-    color:#cc3f85;    
-}
-
-/* section styles */
-
-section.forecast {
-    display: none;
-}
-
-main article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-    width: 50%;
-    max-width: 300px;
-    margin-top: 1em;
-    padding-top: 0.8em;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-   /* fill the page in the small/phone view */
-}
-
-.flexbox1>img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-    width: 50%;
-    max-width: 500px;
-    padding-bottom: 0.8em;
-    display: flex;
-    margin: 0 auto;
-    
-   /* fill the page in the small/phone view */
-}
 
 main article p.town-article, p.w-story {
     padding: 0 1em 1em;
@@ -260,74 +201,7 @@ footer {
     padding: 1em 0 1em 0;
 }
 
-main > .grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1em;
-    text-align: center;
-    padding-top: 1em; 
-}
 
-main p, article.info ul li {
-    font-family: Calibri, sans-serif;
-    color: #000000;
-    font-size: 0.8em;
-    text-align: center;
-}
-
-main section .container1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-}
-
-main section .container1 img {   
-    width: 25%;
-    max-width: 250px;
-    flex-grow: 1;
-}
-
-main section .container1 > div {
-    flex-grow: 2;
-}
-
-main .current p {
-    text-transform: uppercase;
-}
-
-section.forecast {
-    display: none;
-}
-
-
-
-main article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-    width: 50%;
-    max-width: 300px;
-    margin-top: 1em;
-    padding-top: 0.8em;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-   /* fill the page in the small/phone view */
-}
-
-.flexbox1>img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-    width: 50%;
-    max-width: 500px;
-    padding-bottom: 0.8em;
-    display: flex;
-    margin: 0 auto;
-    
-   /* fill the page in the small/phone view */
-}
-
-main article p.town-article, p.w-story {
-    padding: 0 1em 1em;
-    word-spacing: 0.2rem;
-    margin-bottom: 0;
-}
 
 #franklinevents {
     justify-content: center;
