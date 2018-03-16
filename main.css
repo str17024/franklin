@@ -79,7 +79,9 @@ nav ul.hide {
 
 h1 {
     display: flex;
-    font-size:  2.4rem;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    font-size:  2.2rem;
     color:  #0da4c3 ;
     text-align: center;
     
@@ -87,7 +89,7 @@ h1 {
 }
 header img {
     display: flex;
-    width: 10%;
+    width: 20%;
     height: auto;
     
 }
@@ -98,14 +100,15 @@ h2 {
 }
 header .subheading {
     display: flex;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #a72170;
     
 }
 
 .weathersummary{
+    font-size: 1.6em;
     display: flex;
-    border:3px solid;
+    border: none;
     text-decoration-line: underline;
     background-color: aqua;
     flex-direction: row;
@@ -131,9 +134,9 @@ header .subheading {
 
 
 .franklinimage {
-    width:auto;
-    flex-shrink: 1
-    align-self: flex-start;
+    height: 100%;
+    width: 50%;
+    
     
     }
 
@@ -269,7 +272,7 @@ main p, article.info ul li {
     font-family: Calibri, sans-serif;
     color: #000000;
     font-size: 0.8em;
-    text-align: left;
+    text-align: center;
 }
 
 main section .container1 {
@@ -323,5 +326,6 @@ main article p.town-article, p.w-story {
     word-spacing: 0.2rem;
     margin-bottom: 0;
 }
+
 
 /* Other Class Selectors */
