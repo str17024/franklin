@@ -183,7 +183,9 @@ tr:nth-child(2n+3) {
 
 
 
-
+h3 {
+    text-align: center;
+}
 
 main article p.town-article, p.w-story {
     padding: 0 1em 1em;
